@@ -93,7 +93,7 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <JavaRebel-Plugin>org.zeroturnaround.javarebel.integration.pluginTemplate.PluginTemplate</JavaRebel-Plugin>
+                            <JavaRebel-Plugin>org.scalatra.jrebel.ScalatraJrebelPlugin</JavaRebel-Plugin>
                         </manifestEntries> 
                     </archive>
                 </configuration>
