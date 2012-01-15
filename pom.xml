@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>jr-plugin-template</artifactId>
+    <artifactId>scalatra-jrebel-plugin</artifactId>
     
     <!--  added -->
-    <groupId>org.zeroturnaround</groupId>
-    <version>3.1.1-SNAPSHOT</version>
+    <groupId>org.scalatra.jrebel</groupId>
+    <version>0.0.1-SNAPSHOT</version>
     <!--  eof-added -->
     
     <packaging>jar</packaging>
@@ -18,25 +18,25 @@
     </parent>
     -->
     
-    <name>JRebel Plugin Template</name>
-    <url>http://maven.apache.org</url>
+    <name>Scalatra JRebel Plugin</name>
+    <url>http://www.scalatra.org</url>
     <licenses>
         <license>
             <name>Apache 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <url>https://github.com/scalatra/scalatra/blob/develop/LICENSE</url>
         </license>
     </licenses>
     <dependencies>
         <dependency>
-            <groupId>${project.groupId}</groupId>
+            <groupId>org.zeroturnaround</groupId>
             <artifactId>jr-sdk</artifactId>
-            <version>${project.version}</version>
+            <version>3.1.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}</groupId>
+            <groupId>org.zeroturnaround</groupId>
             <artifactId>jr-utils</artifactId>
-            <version>${project.version}</version>
+            <version>3.1.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
